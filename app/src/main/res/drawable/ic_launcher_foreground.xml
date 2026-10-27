@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="108dp"
+        android:height="108dp"
+        android:viewportWidth="108"
+        android:viewportHeight="108">
+
+    <!-- Forest green background -->
+
+    <!-- Main progress ring -->
+    <path
+            android:pathData="M54,32
+            A22,22 0,1 1,53.99 32"
+            android:strokeWidth="5"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000" />
+
+    <!-- Completed task checkmark -->
+    <path
+            android:pathData="M43,54.5 L51,62 L65.5,47"
+            android:strokeWidth="5"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000" />
+
+    <!-- Small sparkle: a subtle finishing touch -->
+    <path
+            android:pathData="M76,27
+            C76,30 77.5,31.5 80.5,32
+            C77.5,32.5 76,34 76,37
+            C75.5,34 74,32.5 71,32
+            C74,31.5 75.5,30 76,27 Z"
+            android:fillColor="#FFFFFFFF" />
+
+</vector>

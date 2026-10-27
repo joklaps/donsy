@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Built-in breakdown templates (docs/spec.md, "Breakdown templates").
+
+    Per template:
+    - *_name: shown in the template list and above the step preview.
+    - *_keywords: words in a task title or notes that suggest the template. Never shown.
+      Write them in your language, lower case; accents don't matter. A keyword matches whole
+      words only. Use * for "any letters": "quiz*" matches "quizzes", "*room" matches "bedroom",
+      "*toets*" matches "biologietoetsen". Phrases ("learn for") are fine. Translate the idea,
+      not word for word, and add the words people really use: the number of keywords may differ
+      per language.
+    - *_steps: the suggested steps, in order. Each step is small, concrete and starts with a verb.
+      The user can untick or edit every step before adding it.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Template name. -->
+    <string name="template_study_test_name">Study for a test</string>
+    <string-array name="template_study_test_keywords" tools:ignore="InconsistentArrays">
+        <item>test</item>
+        <item>tests</item>
+        <item>exam</item>
+        <item>exams</item>
+        <item>quiz*</item>
+        <item>revis*</item>
+        <item>study</item>
+        <item>studying</item>
+        <item>learn for</item>
+    </string-array>
+    <string-array name="template_study_test_steps">
+        <item>Find out which topics the test covers</item>
+        <item>Gather your notes and books</item>
+        <item>Review the first topic</item>
+        <item>Make flashcards or a short summary</item>
+        <item>Test yourself on what\'s still hard</item>
+    </string-array>
+
+    <!-- Template name. -->
+    <string name="template_write_text_name">Write an essay or report</string>
+    <string-array name="template_write_text_keywords" tools:ignore="InconsistentArrays">
+        <item>essay*</item>
+        <item>report*</item>
+        <item>paper</item>
+        <item>write</item>
+        <item>writing</item>
+    </string-array>
+    <string-array name="template_write_text_steps">
+        <item>Reread the assignment</item>
+        <item>Collect ideas and sources</item>
+        <item>Make a short outline</item>
+        <item>Write a rough first version</item>
+        <item>Read it through and fix what stands out</item>
+        <item>Hand it in</item>
+    </string-array>
+
+    <!-- Template name. -->
+    <string name="template_presentation_name">Prepare a presentation</string>
+    <string-array name="template_presentation_keywords" tools:ignore="InconsistentArrays">
+        <item>presentation*</item>
+        <item>present</item>
+        <item>talk</item>
+        <item>speech</item>
+        <item>slides</item>
+        <item>powerpoint</item>
+    </string-array>
+    <string-array name="template_presentation_steps">
+        <item>Pick your main message</item>
+        <item>Collect the information you need</item>
+        <item>Make the slides or notes</item>
+        <item>Practise it out loud once</item>
+        <item>Check what you need on the day</item>
+    </string-array>
+
+    <!-- Template name. -->
+    <string name="template_homework_name">Do homework</string>
+    <string-array name="template_homework_keywords" tools:ignore="InconsistentArrays">
+        <item>homework</item>
+        <item>assignment*</item>
+        <item>exercise*</item>
+        <item>worksheet*</item>
+    </string-array>
+    <string-array name="template_homework_steps">
+        <item>Check what\'s due and where to find it</item>
+        <item>Get your things ready</item>
+        <item>Do the first exercise</item>
+        <item>Do the rest</item>
+        <item>Put it in your bag</item>
+    </string-array>
+
+    <!-- Template name. -->
+    <string name="template_tidy_room_name">Tidy up a room</string>
+    <string-array name="template_tidy_room_keywords" tools:ignore="InconsistentArrays">
+        <item>tidy*</item>
+        <item>clean*</item>
+        <item>*room</item>
+        <item>declutter*</item>
+        <item>desk</item>
+    </string-array>
+    <string-array name="template_tidy_room_steps">
+        <item>Put trash in a bag</item>
+        <item>Bring dishes to the kitchen</item>
+        <item>Put clothes away or in the wash</item>
+        <item>Clear one surface</item>
+        <item>Put the rest back where it belongs</item>
+    </string-array>
+
+    <!-- Template name. -->
+    <string name="template_call_name">Make a call or appointment</string>
+    <string-array name="template_call_keywords" tools:ignore="InconsistentArrays">
+        <item>call</item>
+        <item>phone</item>
+        <item>appointment*</item>
+        <item>make an appointment</item>
+    </string-array>
+    <string-array name="template_call_steps">
+        <item>Find the number or website</item>
+        <item>Write down what you want to ask</item>
+        <item>Pick a moment and call</item>
+        <item>Note down what was agreed</item>
+    </string-array>
+
+    <!-- Template name. -->
+    <string name="template_trip_name">Pack for a trip</string>
+    <string-array name="template_trip_keywords" tools:ignore="InconsistentArrays">
+        <item>pack</item>
+        <item>packing</item>
+        <item>trip</item>
+        <item>travel*</item>
+        <item>camp</item>
+        <item>camping</item>
+        <item>holiday*</item>
+        <item>vacation</item>
+    </string-array>
+    <string-array name="template_trip_steps">
+        <item>Make a list of what you need</item>
+        <item>Check the weather</item>
+        <item>Gather your clothes</item>
+        <item>Gather toiletries and chargers</item>
+        <item>Pack your bag</item>
+    </string-array>
+
+    <!-- Template name. -->
+    <string name="template_read_book_name">Read a book</string>
+    <string-array name="template_read_book_keywords" tools:ignore="InconsistentArrays">
+        <item>read</item>
+        <item>reading</item>
+        <item>book</item>
+        <item>books</item>
+        <item>novel*</item>
+        <item>chapter*</item>
+    </string-array>
+    <string-array name="template_read_book_steps">
+        <item>Check how many pages are left</item>
+        <item>Split them into a few chunks</item>
+        <item>Read the first chunk</item>
+        <item>Write down a few notes</item>
+    </string-array>
+</resources>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dutch. Glossary and tone: docs/i18n.md. The tab and every sentence say "Brain Dump" (two words), never translated; an item is a "notitie". -->
+<resources>
+    <string name="tab_braindump">Brain Dump</string>
+    <string name="tab_tasks">Taken</string>
+    <string name="tab_focus">Focus</string>
+
+    <string name="settings_title">Instellingen</string>
+    <string name="action_open_settings">Instellingen openen</string>
+    <string name="action_navigate_back">Terug</string>
+
+    <string name="action_save">Bewaren</string>
+    <string name="action_cancel">Annuleren</string>
+    <string name="action_delete">Verwijderen</string>
+    <string name="action_undo">Ongedaan maken</string>
+    <string name="action_edit">Bewerken</string>
+    <string name="action_capture">Noteren</string>
+
+
+    <string name="braindump_capture_title">Waar denk je aan?</string>
+    <string name="braindump_edit_title">Notitie bewerken</string>
+    <string name="braindump_capture_placeholder">Typ of spreek een notitie in</string>
+    <string name="braindump_voice_hint">Tip: tik op de microfoon van je toetsenbord om te spreken in plaats van te typen.</string>
+    <string name="braindump_deleted">Notitie verwijderd</string>
+    <string name="braindump_intro">Alles wat door je hoofd gaat, op één plek. Opschrijven maakt je hoofd vrij. Niets hiervan is een taak tot jij er een van maakt.</string>
+    <string name="braindump_empty_title">Hier staat nog niets</string>
+    <string name="braindump_empty_body">Noteer alles wat in je hoofd zit. Uitzoeken kan later, of helemaal niet.</string>
+    <string name="braindump_search_placeholder">Zoek in je Brain Dump</string>
+    <string name="braindump_search_clear">Zoekveld leegmaken</string>
+    <string name="braindump_search_no_match">Geen notities met deze woorden</string>
+    <string name="braindump_section_thoughts">Je notities</string>
+    <string name="braindump_sort_description">Sorteren op datum</string>
+    <string name="braindump_sort_newest">Nieuwste eerst</string>
+    <string name="braindump_sort_oldest">Oudste eerst</string>
+
+    <string name="captured_today">Vandaag, %1$s</string>
+    <string name="captured_yesterday">Gisteren, %1$s</string>
+    <string name="captured_on_date">%1$s, %2$s</string>
+
+    <string name="settings_language">Taal</string>
+    <string name="settings_language_system">Systeemtaal gebruiken</string>
+    <string name="state_expanded">Uitgeklapt</string>
+    <string name="state_collapsed">Ingeklapt</string>
+    <string name="action_show_help">Wat betekent dit?</string>
+    <string name="action_ok">OK</string>
+    <string name="action_more_options">Meer opties</string>
+    <string name="action_open_task">Taak openen</string>
+
+    <string name="tasks_section_todo">Te doen</string>
+    <string name="tasks_section_paused">Even uitstellen</string>
+    <string name="tasks_section_todo_help">Je openstaande taken. Tik op een taak om die te openen.</string>
+    <string name="tasks_section_paused_help">Taken die je even opzij hebt gezet. Deze worden niet automatisch voorgesteld.</string>
+    <string name="tasks_section_done">Klaar (%1$d)</string>
+    <string name="tasks_empty_title">Nog geen taken</string>
+    <string name="tasks_empty_body">Voeg een taak toe, of maak er een van een notitie uit je Brain Dump.</string>
+    <string name="action_new_task">Nieuwe taak</string>
+    <string name="action_complete_task_named">‘%1$s’ afvinken</string>
+    <string name="action_reopen_task_named">‘%1$s’ heropenen</string>
+    <string name="task_deleted">Taak verwijderd</string>
+    <string name="task_important">Belangrijk</string>
+
+    <plurals name="step_position">
+        <item quantity="one">Stap %1$d van %2$d</item>
+        <item quantity="other">Stap %1$d van %2$d</item>
+    </plurals>
+    <string name="kind_task">Taak</string>
+    <plurals name="steps_progress">
+        <item quantity="one">%1$d van %2$d stap</item>
+        <item quantity="other">%1$d van %2$d stappen</item>
+    </plurals>
+
+    <string name="due_today">Voor vandaag</string>
+    <string name="due_tomorrow">Voor morgen</string>
+    <string name="due_on">Voor %1$s</string>
+    <string name="was_due_on">Was voor %1$s</string>
+    <string name="due_today_at">Voor vandaag om %1$s</string>
+    <string name="due_tomorrow_at">Voor morgen om %1$s</string>
+    <string name="due_on_at">Voor %1$s om %2$s</string>
+    <string name="was_due_today_at">Was voor vandaag om %1$s</string>
+    <string name="was_due_on_at">Was voor %1$s om %2$s</string>
+
+    <plurals name="estimate_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <string name="estimate_hour_plus">1 uur of meer</string>
+    <string name="effort_low">Weinig</string>
+    <string name="effort_medium">Gemiddeld</string>
+    <string name="effort_high">Veel</string>
+    <string name="task_effort_label">%1$s energie</string>
+
+    <string name="task_status_paused">Even uitstellen</string>
+    <string name="task_status_done">Klaar</string>
+    <string name="task_steps_title">Stappen</string>
+    <string name="task_steps_empty">Grote taak? Deel ze op in kleine stappen.</string>
+    <string name="task_add_step_placeholder">Stap toevoegen</string>
+    <string name="template_suggestion">Hulp bij het begin? Er zijn kant-en-klare stappen voor ‘%1$s’.</string>
+    <string name="action_try_template_steps">Stappen tonen</string>
+    <string name="action_other_templates">Andere sjablonen</string>
+    <string name="action_add_template_steps">Stappen uit een sjabloon toevoegen</string>
+    <string name="template_picker_title">Kies een sjabloon</string>
+    <string name="template_matches_task">Past bij deze taak</string>
+    <string name="template_preview_body">Vink uit wat je niet nodig hebt en pas aan wat je wilt. De volgorde kun je daarna nog wijzigen.</string>
+    <string name="template_all_steps_present">Deze taak heeft al deze stappen.</string>
+    <string name="template_include_step">‘%1$s’ opnemen</string>
+    <plurals name="action_add_template_steps_count">
+        <item quantity="one">%d stap toevoegen</item>
+        <item quantity="other">%d stappen toevoegen</item>
+    </plurals>
+    <string name="action_add_step">Stap toevoegen</string>
+    <string name="action_edit_step">Stap bewerken</string>
+    <string name="task_edit_step_title">Stap bewerken</string>
+    <string name="action_delete_step">Stap verwijderen</string>
+    <string name="action_drag_step">Vasthouden en slepen om te verplaatsen</string>
+    <string name="action_move_up">Omhoog</string>
+    <string name="action_move_down">Omlaag</string>
+    <string name="action_edit_task">Taak bewerken</string>
+    <string name="action_pause_task">Even uitstellen</string>
+    <string name="action_resume_task">Terug naar mijn lijst</string>
+    <string name="action_mark_task_done">Taak afvinken</string>
+    <string name="action_reopen">Heropenen</string>
+
+    <string name="complete_open_steps_title">Er staan nog stappen open</string>
+    <plurals name="complete_open_steps_body">
+        <item quantity="one">%1$d stap is nog niet afgevinkt. Die ook afvinken?</item>
+        <item quantity="other">%1$d stappen zijn nog niet afgevinkt. Die ook afvinken?</item>
+    </plurals>
+    <string name="action_mark_steps_done">Ook afvinken</string>
+    <string name="action_only_task">Alleen de taak</string>
+    <string name="last_step_title">Dat was de laatste stap</string>
+    <string name="last_step_body">De hele taak afvinken?</string>
+    <string name="action_mark_done">Afvinken</string>
+    <string name="action_not_yet">Nog niet</string>
+
+    <string name="task_edit_new_title">Nieuwe taak</string>
+    <string name="task_edit_title">Taak bewerken</string>
+    <string name="task_edit_from_thought_title">Maak er een taak van</string>
+    <string name="task_field_title">Wat wil je doen?</string>
+    <string name="task_field_notes">Notities (optioneel)</string>
+    <string name="task_field_due">Datum</string>
+    <string name="task_due_none">Geen datum</string>
+    <string name="action_remove_date">Datum wissen</string>
+    <string name="task_due_time_none">Voor middernacht</string>
+    <string name="action_remove_time">Tijd wissen</string>
+    <string name="task_field_repeat">Herhalen</string>
+    <string name="task_field_repeat_help">Herhalende taken worden routines: ze komen terug op de dagen die je kiest, met een herinnering.</string>
+    <string name="repeat_never">Nooit</string>
+    <string name="repeat_every_day">Elke dag</string>
+    <string name="repeat_weekdays">Weekdagen</string>
+    <string name="repeat_pick_days">Kies dagen</string>
+    <string name="task_field_remind_at">Herinner me om</string>
+    <string name="task_remind_time_none">Kies een tijd</string>
+    <string name="repeat_every_day_at">Elke dag om %1$s</string>
+    <string name="repeat_weekdays_at">Op weekdagen om %1$s</string>
+    <string name="repeat_days_at">%1$s om %2$s</string>
+    <string name="task_field_estimate">Hoe lang duurt het ongeveer?</string>
+    <string name="task_field_estimate_help">Optioneel. Zo kan Donsy iets voorstellen dat in je tijd past.</string>
+    <string name="task_field_effort">Hoeveel energie kost het?</string>
+    <string name="task_field_effort_help">Optioneel. Met weinig energie stelt Donsy lichtere taken voor.</string>
+    <string name="task_field_important">Dit is belangrijk</string>
+    <string name="task_field_important_help">Donsy stelt belangrijke taken sneller voor.</string>
+
+    <string name="action_make_task">Maak er een taak van</string>
+    <string name="action_make_task_named">Maak van ‘%1$s’ een taak</string>
+    <string name="braindump_converted">Verplaatst naar je taken</string>
+    <string name="home_suggestion_label">Een nuttige volgende stap</string>
+    <string name="home_time_label">Ik heb ongeveer…</string>
+    <string name="home_energy_label">Mijn energie nu</string>
+    <string name="home_time_help">Optioneel. Zo kan Donsy iets voorstellen dat in je tijd past.</string>
+    <string name="home_energy_help">Optioneel. Met weinig energie krijg je een gemakkelijker voorstel.</string>
+    <string name="energy_low">Laag</string>
+    <string name="energy_medium">Gemiddeld</string>
+    <string name="energy_high">Hoog</string>
+    <string name="action_start">Beginnen</string>
+    <string name="action_show_another">Iets anders</string>
+    <string name="action_not_now">Nu niet</string>
+    <string name="action_choose_myself">Ik kies liever zelf</string>
+    <string name="home_set_aside">Oké, vandaag niet.</string>
+    <string name="home_nothing_title">Nu even niets voor te stellen</string>
+    <string name="home_nothing_body">Geen probleem. Een paar kleine manieren om op gang te komen:</string>
+    <string name="home_all_skipped_title">Dat was alles voor nu</string>
+    <string name="home_all_skipped_body">Je hebt alle suggesties gezien.</string>
+    <string name="action_start_over">Opnieuw tonen</string>
+    <string name="home_welcome_title">Maak je hoofd leeg</string>
+    <string name="home_welcome_body">Noteer alles wat in je hoofd zit. Als je er klaar voor bent, helpt Donsy je één kleine volgende stap te vinden.</string>
+
+    <string name="starter_sort_braindump">Neem 2 minuten om je Brain Dump te sorteren</string>
+    <string name="starter_add_small_task">Voeg één kleine taak toe</string>
+    <string name="starter_pick_any_task">Kies zelf een taak</string>
+
+    <string name="reason_due_today">Het is voor vandaag.</string>
+    <string name="reason_due_tomorrow">Het is voor morgen.</string>
+    <plurals name="reason_due_soon">
+        <item quantity="one">Nog %d dag tot de datum.</item>
+        <item quantity="other">Nog %d dagen tot de datum.</item>
+    </plurals>
+    <string name="reason_was_due">De datum is voorbij, maar een kleine stap telt nog altijd.</string>
+    <string name="reason_important">Je vond dit belangrijk.</string>
+    <plurals name="reason_fits_time">
+        <item quantity="one">Het past in je %d minuut.</item>
+        <item quantity="other">Het past in je %d minuten.</item>
+    </plurals>
+    <plurals name="reason_quick">
+        <item quantity="one">Het duurt maar zo\'n %d minuut.</item>
+        <item quantity="other">Het duurt maar zo\'n %d minuten.</item>
+    </plurals>
+    <string name="reason_energy_low">Licht genoeg voor een moment met weinig energie.</string>
+    <string name="reason_energy_medium">Het past bij je energie van nu.</string>
+    <string name="reason_energy_high">Een goede match met je energie van nu.</string>
+    <string name="reason_worked_recently">Je was hier onlangs mee bezig.</string>
+    <plurals name="reason_steps_in_progress">
+        <item quantity="one">Je bent %1$d van de %2$d stap ver.</item>
+        <item quantity="other">Je bent %1$d van de %2$d stappen ver.</item>
+    </plurals>
+    <string name="reason_all_steps_done">Alle stappen zijn klaar. Rond het nog af.</string>
+    <string name="reason_good_start">Een goed begin.</string>
+    <string name="focus_setup_title">Waar wil je je op focussen?</string>
+    <string name="focus_setup_help">Kies een taak of stap, of focus gewoon zonder.</string>
+    <string name="focus_target_none">Gewoon focussen, zonder taak</string>
+    <string name="action_choose_task">Kies een taak</string>
+    <string name="action_change_task">Kies een andere taak</string>
+    <string name="action_clear_task">Geen taak</string>
+    <string name="focus_duration_label">Hoe lang?</string>
+    <string name="focus_duration_help">Een korte sessie is prima. Je kunt altijd pauzeren of stoppen.</string>
+    <string name="action_start_focus">Begin met focussen</string>
+
+    <string name="focus_just_focusing">Gewoon focussen</string>
+    <string name="focus_paused">Gepauzeerd</string>
+    <plurals name="focus_minutes_left">
+        <item quantity="one">Nog %d minuut</item>
+        <item quantity="other">Nog %d minuten</item>
+    </plurals>
+    <string name="focus_paused_time_left">Gepauzeerd, %1$s</string>
+    <string name="action_pause">Pauzeren</string>
+    <string name="action_resume">Verder</string>
+    <string name="action_finish_early">Nu afronden</string>
+    <string name="action_cancel_session">Sessie annuleren</string>
+    <string name="focus_task_unchanged">Stoppen verandert niets aan je taak. Jij beslist wanneer ze klaar is.</string>
+
+    <string name="focus_done_title">Sessie voltooid</string>
+    <string name="focus_ended_title">Sessie beëindigd</string>
+    <plurals name="focus_done_body">
+        <item quantity="one">Je hebt %d minuut gefocust.</item>
+        <item quantity="other">Je hebt %d minuten gefocust.</item>
+    </plurals>
+    <string name="focus_note_finished_away">Ze is afgelopen terwijl je weg was.</string>
+    <string name="focus_note_long_pause">Ze stond lang op pauze en is daarom afgerond.</string>
+    <string name="focus_mark_done_question">‘%1$s’ afvinken?</string>
+    <string name="focus_marked_done">Afgevinkt. Goed gedaan.</string>
+    <string name="action_start_another">Nog een sessie</string>
+
+    <string name="notification_channel_focus">Focustimer</string>
+    <string name="notification_channel_focus_description">Toont de resterende tijd tijdens een focussessie.</string>
+    <string name="notification_channel_focus_end">Einde focussessie</string>
+    <string name="notification_channel_focus_end_description">Laat weten wanneer een focussessie voorbij is.</string>
+    <string name="notification_focus_running_title">Focus: %1$s</string>
+    <string name="notification_focus_running_plain">Aan het focussen</string>
+    <plurals name="notification_focus_paused">
+        <item quantity="one">Gepauzeerd · nog %d minuut</item>
+        <item quantity="other">Gepauzeerd · nog %d minuten</item>
+    </plurals>
+    <string name="notification_focus_done_title">Focussessie voltooid</string>
+    <string name="notification_focus_done_text">Goed gedaan. Tik om te zien hoe het ging.</string>
+
+    <string name="settings_precise_alerts">Precieze eindmelding</string>
+    <string name="settings_precise_alerts_body">Meld het exacte moment waarop een focussessie eindigt. Android vraagt je toestemming. Zonder die toestemming kan de melding enkele minuten later komen.</string>
+    <string name="settings_focus_lengths">Lengte van focussessies</string>
+    <string name="settings_focus_lengths_body">Kies welke lengtes het Focus-scherm aanbiedt.</string>
+    <string name="settings_focus_default">Standaardlengte</string>
+    <string name="focus_precise_offer_title">De eindmelding precies op tijd?</string>
+    <string name="focus_precise_offer_body">Zonder je toestemming kan Android ze enkele minuten later sturen. Je kunt dit later wijzigen in Instellingen.</string>
+    <string name="action_allow">Toestaan</string>
+    <string name="action_no_thanks">Nee, bedankt</string>
+
+    <string name="tasks_section_routines">Routines (herhalend)</string>
+    <string name="tasks_section_routines_help">Taken die op vaste dagen terugkomen. Vink ze af voor vandaag.</string>
+    <string name="routine_status_done_today">Klaar voor vandaag</string>
+    <string name="action_routine_done_today">Klaar voor vandaag</string>
+    <string name="action_routine_not_done">Nog niet klaar</string>
+    <string name="action_routine_done_named">%1$s klaar voor vandaag</string>
+    <string name="action_routine_undo_named">%1$s nog niet klaar</string>
+    <string name="reminders_permission_body">Routines herinneren je op het tijdstip dat je kiest. Daarvoor moet Donsy meldingen mogen sturen en alarmen mogen zetten.</string>
+    <string name="reminders_off_body">Herinneringen voor je routines staan uit. Sta ze toe, dan kan Donsy je op tijd herinneren.</string>
+    <string name="action_allow_notifications">Meldingen toestaan</string>
+    <string name="action_allow_alarms">Alarmen toestaan</string>
+    <string name="notification_channel_routines">Routines</string>
+    <string name="notification_channel_routines_description">Een herinnering op het tijdstip dat je voor een routine koos.</string>
+    <string name="notification_routine_text">Het is %1$s: tijd voor deze routine.</string>
+    <string name="action_routine_done">Klaar</string>
+
+    <string name="settings_section_general">Algemeen</string>
+    <string name="settings_section_data">Jouw gegevens</string>
+    <string name="settings_data_local_only">Alles blijft op deze telefoon. Verwijder je Donsy of neem je een andere telefoon, dan ben je alles kwijt, tenzij je het eerst exporteert.</string>
+    <string name="settings_export">Je gegevens exporteren</string>
+    <string name="settings_export_body">Bewaar je taken, routines, notities, focusgeschiedenis en instellingen in een bestand.</string>
+    <string name="settings_restore">Terugzetten uit een bestand</string>
+    <string name="settings_restore_body">Vervang alles in Donsy door een export.</string>
+    <string name="settings_recently_deleted">Onlangs verwijderd</string>
+    <string name="settings_recently_deleted_body">Verwijderde taken en notities, 7 dagen bewaard.</string>
+    <string name="settings_archive">Archief</string>
+    <string name="settings_archive_body">Afgewerkte taken die je hebt opgeborgen. Haal er gerust een terug.</string>
+    <string name="settings_auto_archive">Afgewerkte taken automatisch archiveren</string>
+    <string name="settings_auto_archive_never">Nooit</string>
+    <plurals name="settings_auto_archive_after">
+        <item quantity="one">Na %d dag</item>
+        <item quantity="other">Na %d dagen</item>
+    </plurals>
+    <string name="backup_working">Bezig met je gegevens…</string>
+
+    <string name="export_title">Je gegevens exporteren</string>
+    <string name="export_body">Bewaart je taken, routines, notities, focusgeschiedenis en instellingen in een bestand naar keuze.</string>
+    <string name="export_protect">Beveiligen met een wachtwoord</string>
+    <string name="export_plain_warning">Zonder wachtwoord kan iedereen die het bestand krijgt het lezen. Bewaar het op een veilige plek.</string>
+    <string name="export_passphrase">Wachtwoord</string>
+    <string name="export_passphrase_repeat">Wachtwoord herhalen</string>
+    <string name="export_passphrase_rule">Minstens 8 tekens. Vergeet je het, dan kan niemand het bestand openen, ook Donsy niet.</string>
+    <string name="export_passphrase_mismatch">De twee wachtwoorden verschillen.</string>
+    <string name="action_export">Exporteren</string>
+
+    <string name="restore_passphrase_title">Dit bestand is beveiligd</string>
+    <string name="restore_passphrase_body">Typ het wachtwoord dat je koos bij het exporteren.</string>
+    <string name="restore_passphrase_wrong">Met dit wachtwoord gaat dit bestand niet open. Probeer opnieuw.</string>
+    <string name="action_open_file">Openen</string>
+    <string name="restore_confirm_title">Alles vervangen?</string>
+    <string name="restore_confirm_made">Geëxporteerd op %1$s om %2$s.</string>
+    <string name="restore_confirm_contains">Dit bestand bevat:</string>
+    <string name="list_bullet">• %1$s</string>
+    <plurals name="restore_count_tasks">
+        <item quantity="one">%d taak</item>
+        <item quantity="other">%d taken</item>
+    </plurals>
+    <plurals name="restore_count_routines">
+        <item quantity="one">%d routine</item>
+        <item quantity="other">%d routines</item>
+    </plurals>
+    <plurals name="restore_count_thoughts">
+        <item quantity="one">%d notitie</item>
+        <item quantity="other">%d notities</item>
+    </plurals>
+    <plurals name="restore_count_focus_sessions">
+        <item quantity="one">%d focussessie</item>
+        <item quantity="other">%d focussessies</item>
+    </plurals>
+    <plurals name="restore_count_recently_deleted">
+        <item quantity="one">%d onlangs verwijderd item</item>
+        <item quantity="other">%d onlangs verwijderde items</item>
+    </plurals>
+    <string name="restore_confirm_warning">Alles wat nu in Donsy staat, wordt vervangen door wat in dit bestand staat. Dit kan je niet ongedaan maken.</string>
+    <string name="action_replace_everything">Alles vervangen</string>
+
+    <string name="backup_exported">Export bewaard</string>
+    <string name="backup_export_failed">Het bestand kon niet bewaard worden. Probeer een andere plek.</string>
+    <string name="backup_restored">Alles is teruggezet</string>
+    <string name="backup_unreadable">Dat bestand kon niet geopend worden</string>
+    <string name="backup_not_a_backup">Dat bestand is geen export van Donsy</string>
+    <string name="backup_from_newer_version">Die export komt van een nieuwere Donsy. Werk de app eerst bij.</string>
+    <string name="backup_focus_session_active">Rond je focussessie eerst af of stop ze, en zet dan terug.</string>
+
+    <string name="recently_deleted_title">Onlangs verwijderd</string>
+    <string name="recently_deleted_intro">Verwijderde taken en notities blijven hier 7 dagen staan. Daarna zijn ze voorgoed weg.</string>
+    <string name="recently_deleted_section_tasks">Taken</string>
+    <string name="recently_deleted_section_thoughts">Notities</string>
+    <string name="recently_deleted_empty">Niets onlangs verwijderd.</string>
+    <plurals name="recently_deleted_days_left">
+        <item quantity="one">Nog %d dag bewaard</item>
+        <item quantity="other">Nog %d dagen bewaard</item>
+    </plurals>
+    <string name="action_restore">Terugzetten</string>
+    <string name="action_restore_named">‘%1$s’ terugzetten</string>
+    <string name="action_delete_forever_named">‘%1$s’ voorgoed verwijderen</string>
+    <string name="action_delete_forever">Voorgoed verwijderen</string>
+    <string name="delete_forever_title">Voorgoed verwijderen?</string>
+    <string name="delete_forever_body">‘%1$s’ kan je hierna niet meer terughalen.</string>
+    <string name="recently_deleted_restored_task">Terug bij je taken</string>
+    <string name="recently_deleted_restored_thought">Terug in je Brain Dump</string>
+
+    <string name="archive_title">Archief</string>
+    <string name="archive_intro">Afgewerkte taken die je hebt opgeborgen, zelf of automatisch. Haal er een terug om die weer onder Klaar te zien.</string>
+    <string name="archive_empty">Nog geen gearchiveerde taken.</string>
+    <string name="archive_done_on">Klaar op %1$s</string>
+    <string name="action_bring_back">Terughalen</string>
+    <string name="action_bring_back_named">‘%1$s’ terughalen</string>
+    <string name="archive_brought_back">Terug onder Klaar</string>
+    <string name="action_archive_named">‘%1$s’ archiveren</string>
+    <string name="task_archived">Taak gearchiveerd</string>
+
+    <string name="settings_section_about">Over Donsy</string>
+    <string name="settings_licenses">Opensourcelicenties</string>
+    <string name="settings_licenses_body">Donsy is vrije software. De licentie en de bibliotheken waarmee Donsy gemaakt is.</string>
+    <string name="licenses_title">Opensourcelicenties</string>
+    <string name="licenses_donsy_body">Donsy is vrije software onder de GNU General Public License, versie 3 of later. Je mag Donsy gebruiken, delen en aanpassen. Wie het doorgeeft, aangepast of niet, moet ook de broncode delen, onder dezelfde licentie. De naam Donsy en het logo vallen niet onder de licentie.</string>
+    <string name="action_read_gpl">Lees de GPL</string>
+    <string name="licenses_section_libraries">Bibliotheken</string>
+    <string name="licenses_libraries_body">Donsy is gemaakt met deze opensourcebibliotheken. Ze vallen allemaal onder de Apache License 2.0.</string>
+    <string name="action_read_apache">Lees de Apache-licentie</string>
+</resources>

@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Source language: English. Translators: see docs/i18n.md for the glossary and tone guide.
+    Every string has a comment with context. Use the positional placeholders as given.
+-->
+<resources>
+    <!-- Product name. Never translated. -->
+    <string name="app_name" translatable="false">Donsy</string>
+
+    <!-- Bottom tab and title of the start screen: the product name, never translated. -->
+    <string name="tab_home" translatable="false">@string/app_name</string>
+    <!-- Bottom navigation: label of the tab where quick thoughts are captured. "Brain Dump" is a product term (see glossary). -->
+    <string name="tab_braindump">Brain Dump</string>
+    <!-- Bottom navigation: label of the tab listing the user's tasks. -->
+    <string name="tab_tasks">Tasks</string>
+    <!-- Bottom navigation: label of the tab with the focus timer. -->
+    <string name="tab_focus">Focus</string>
+
+    <!-- Title of the settings screen. -->
+    <string name="settings_title">Settings</string>
+    <!-- Accessibility label for the top-bar button that opens settings. -->
+    <string name="action_open_settings">Open settings</string>
+    <!-- Accessibility label for the top-bar button that goes back to the previous screen. -->
+    <string name="action_navigate_back">Back</string>
+
+    <!-- Common button: save what was typed. -->
+    <string name="action_save">Save</string>
+    <!-- Common button: close without saving. -->
+    <string name="action_cancel">Cancel</string>
+    <!-- Common button: delete the item being edited. It can be undone right after. -->
+    <string name="action_delete">Delete</string>
+    <!-- Snackbar action that reverses the last deletion. -->
+    <string name="action_undo">Undo</string>
+    <!-- Accessibility action announced on a list item that opens it for editing. -->
+    <string name="action_edit">Edit</string>
+    <!-- Floating button on Home and BrainDump that opens quick capture. Keep it short (one word if possible). -->
+    <string name="action_capture">Capture</string>
+
+
+    <!-- Title of the quick-capture sheet. Friendly, open question. -->
+    <string name="braindump_capture_title">What\'s on your mind?</string>
+    <!-- Title of the sheet for editing an existing BrainDump item. -->
+    <string name="braindump_edit_title">Edit thought</string>
+    <!-- Hint inside the empty capture field. "Dictate" = speak via the keyboard's microphone. -->
+    <string name="braindump_capture_placeholder">Type or dictate a thought</string>
+    <!-- Tip under the capture field, shown until the first thought is saved. Refers to the microphone key on the phone's keyboard. -->
+    <string name="braindump_voice_hint">Tip: tap the microphone on your keyboard to speak instead of typing.</string>
+    <!-- Snackbar after deleting a BrainDump item; shown with an Undo action. -->
+    <string name="braindump_deleted">Thought deleted</string>
+    <!-- BrainDump: short explanation above the list of thoughts. Calm; must not create pressure to process items. -->
+    <string name="braindump_intro">Everything that\'s on your mind, in one place. Writing it down clears your head. Nothing here is a to-do until you make it one.</string>
+    <!-- Empty BrainDump list: heading. -->
+    <string name="braindump_empty_title">Nothing here yet</string>
+    <!-- Empty BrainDump list: explanation. Must not create pressure to process items. -->
+    <string name="braindump_empty_body">Capture anything on your mind. You can sort it out later, or not at all.</string>
+    <!-- Hint inside the search field above the BrainDump list. Typing filters the thoughts. -->
+    <string name="braindump_search_placeholder">Search your thoughts</string>
+    <!-- Content description of the ✕ button that empties the BrainDump search field. -->
+    <string name="braindump_search_clear">Clear search</string>
+    <!-- Shown instead of the list when no thought contains the searched words. Neutral, not an error. -->
+    <string name="braindump_search_no_match">No thoughts with these words</string>
+    <!-- BrainDump: heading band above the list of captured items. No count: nothing here is a to-do. -->
+    <string name="braindump_section_thoughts">Your thoughts</string>
+    <!-- BrainDump: content description of the icon button beside the search field that switches the list between newest and oldest first. Read by screen readers before the current order. -->
+    <string name="braindump_sort_description">Sort by date</string>
+    <!-- BrainDump sort button tooltip and screen-reader state: the list shows the most recently captured thoughts first. Keep it short. -->
+    <string name="braindump_sort_newest">Newest first</string>
+    <!-- BrainDump sort button tooltip and screen-reader state: the list shows the earliest captured thoughts first. Keep it short. -->
+    <string name="braindump_sort_oldest">Oldest first</string>
+
+    <!-- When a thought was captured, today. %1$s = time, e.g. "14:32" or "2:32 PM". -->
+    <string name="captured_today">Today, %1$s</string>
+    <!-- When a thought was captured, yesterday. %1$s = time. -->
+    <string name="captured_yesterday">Yesterday, %1$s</string>
+    <!-- When a thought was captured, earlier. %1$s = localized date (e.g. "3 Oct"), %2$s = time. -->
+    <string name="captured_on_date">%1$s, %2$s</string>
+
+    <!-- Settings row and dialog title for choosing the app language. -->
+    <string name="settings_language">Language</string>
+    <!-- Language option: follow the phone's language instead of a fixed one. -->
+    <string name="settings_language_system">Use system language</string>
+    <!-- Accessibility state of a collapsible section header. -->
+    <string name="state_expanded">Expanded</string>
+    <!-- Accessibility state of a collapsible section header. -->
+    <string name="state_collapsed">Collapsed</string>
+    <!-- Screen-reader name of the ? icon at the end of a section heading; tapping the heading shows or hides a short explanation. -->
+    <string name="action_show_help">What does this mean?</string>
+    <!-- Common button: confirm a dialog choice. -->
+    <string name="action_ok">OK</string>
+    <!-- Accessibility label for the overflow menu button. -->
+    <string name="action_more_options">More options</string>
+    <!-- Accessibility action announced on a task row that opens its details. -->
+    <string name="action_open_task">Open task</string>
+
+    <!-- Tasks tab: section heading for active tasks. -->
+    <string name="tasks_section_todo">To do</string>
+    <!-- Tasks tab: section heading for tasks the user set aside ("not for now"). -->
+    <string name="tasks_section_paused">Not for now</string>
+    <!-- Tasks tab: short help under the "To do" heading, shown after tapping its ?. One short sentence. -->
+    <string name="tasks_section_todo_help">Your open tasks. Tap one to open it.</string>
+    <!-- Tasks tab: short help under the "Not for now" heading, shown after tapping its ?. Calm: nothing here is waiting or late. -->
+    <string name="tasks_section_paused_help">Tasks you set aside. Nothing here is waiting on you.</string>
+    <!-- Tasks tab: collapsible heading for finished tasks. %1$d = number of finished tasks. -->
+    <string name="tasks_section_done">Done (%1$d)</string>
+    <!-- Empty Tasks tab: heading. -->
+    <string name="tasks_empty_title">No tasks yet</string>
+    <!-- Empty Tasks tab: explanation. -->
+    <string name="tasks_empty_body">Add a task, or turn a thought from your Brain Dump into one.</string>
+    <!-- Floating button on the Tasks tab. -->
+    <string name="action_new_task">New task</string>
+    <!-- Accessibility label of a task's checkbox. %1$s = task title. -->
+    <string name="action_complete_task_named">Mark “%1$s” done</string>
+    <!-- Accessibility label of a finished task's checkbox. %1$s = task title. -->
+    <string name="action_reopen_task_named">Reopen “%1$s”</string>
+    <!-- Snackbar after deleting a task; shown with an Undo action. -->
+    <string name="task_deleted">Task deleted</string>
+    <!-- Label on tasks marked important. Shown with a star icon. -->
+    <string name="task_important">Important</string>
+
+    <!-- Step progress on a task. %1$d = steps done, %2$d = total steps (the plural follows the total). -->
+    <!-- Badge on a suggested or chosen step: its place in the task. %1$d = step number, %2$d = number of steps. -->
+    <plurals name="step_position">
+        <item quantity="one">Step %1$d of %2$d</item>
+        <item quantity="other">Step %1$d of %2$d</item>
+    </plurals>
+    <!-- Badge on a suggested or chosen item that is a whole task, not a step. -->
+    <string name="kind_task">Task</string>
+    <plurals name="steps_progress">
+        <item quantity="one">%1$d of %2$d step</item>
+        <item quantity="other">%1$d of %2$d steps</item>
+    </plurals>
+
+    <!-- Due date, today. Neutral wording, no urgency. -->
+    <string name="due_today">Due today</string>
+    <!-- Due date, tomorrow. -->
+    <string name="due_tomorrow">Due tomorrow</string>
+    <!-- Due date later. %1$s = weekday ("Friday") or short date ("3 Nov"). -->
+    <string name="due_on">Due %1$s</string>
+    <!-- A due date in the past. Must stay neutral and kind: never "overdue" or "late". %1$s = weekday or short date. -->
+    <string name="was_due_on">Was due %1$s</string>
+    <!-- Due today at a chosen time. %1$s = time ("14:00" or "2:00 PM"). -->
+    <string name="due_today_at">Due today at %1$s</string>
+    <!-- Due tomorrow at a chosen time. %1$s = time. -->
+    <string name="due_tomorrow_at">Due tomorrow at %1$s</string>
+    <!-- Due later at a chosen time. %1$s = weekday ("Friday") or short date ("3 Nov"), %2$s = time. -->
+    <string name="due_on_at">Due %1$s at %2$s</string>
+    <!-- A chosen time earlier today has passed. Neutral and kind: never "overdue" or "late". %1$s = time. -->
+    <string name="was_due_today_at">Was due today at %1$s</string>
+    <!-- A past due date with a chosen time. Neutral and kind. %1$s = weekday or short date, %2$s = time. -->
+    <string name="was_due_on_at">Was due %1$s at %2$s</string>
+
+    <!-- Estimate choice in minutes. %d = minutes. -->
+    <plurals name="estimate_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <!-- Longest estimate choice. -->
+    <string name="estimate_hour_plus">1 hour or more</string>
+    <!-- Effort level: needs little energy. -->
+    <string name="effort_low">Low</string>
+    <!-- Effort level: needs some energy. -->
+    <string name="effort_medium">Medium</string>
+    <!-- Effort level: needs a lot of energy. -->
+    <string name="effort_high">High</string>
+    <!-- Effort shown on the task detail screen. %1$s = Low / Medium / High. -->
+    <string name="task_effort_label">%1$s energy</string>
+
+    <!-- Task detail: note shown on a task the user set aside. -->
+    <string name="task_status_paused">Not for now</string>
+    <!-- Task detail: note shown on a finished task. -->
+    <string name="task_status_done">Done</string>
+    <!-- Task detail: heading of the step list. -->
+    <string name="task_steps_title">Steps</string>
+    <!-- Task detail: shown when a task has no steps yet. Encourages breaking it down. -->
+    <string name="task_steps_empty">Big task? Break it into small steps.</string>
+    <!-- Hint in the field that adds a new step. -->
+    <string name="task_add_step_placeholder">Add a step</string>
+    <!-- Task detail: card shown when a task without steps matches a built-in template. %1$s = template name, e.g. "Study for a test". -->
+    <string name="template_suggestion">Want a head start? There are ready-made steps for “%1$s”.</string>
+    <!-- Task detail suggestion card: opens the suggested template's steps for review. -->
+    <string name="action_try_template_steps">Show steps</string>
+    <!-- Task detail suggestion card: opens the list of all templates. -->
+    <string name="action_other_templates">Other templates</string>
+    <!-- Task detail: button that opens the list of built-in step templates. -->
+    <string name="action_add_template_steps">Add steps from a template</string>
+    <!-- Dialog title: list of built-in step templates. -->
+    <string name="template_picker_title">Choose a template</string>
+    <!-- Template list: shown under templates whose keywords match the task. -->
+    <string name="template_matches_task">Matches this task</string>
+    <!-- Template preview: explanation above the editable steps. -->
+    <string name="template_preview_body">Untick what you don\'t need and reword anything. You can reorder steps afterwards.</string>
+    <!-- Template preview: shown when the task already has every step of the template. -->
+    <string name="template_all_steps_present">This task already has all of these steps.</string>
+    <!-- Template preview: screen-reader label of a step's checkbox. %1$s = step text. -->
+    <string name="template_include_step">Include “%1$s”</string>
+    <!-- Template preview: adds the ticked steps to the task. %d = number of steps. -->
+    <plurals name="action_add_template_steps_count">
+        <item quantity="one">Add %d step</item>
+        <item quantity="other">Add %d steps</item>
+    </plurals>
+    <!-- Accessibility label of the button that adds the typed step. -->
+    <string name="action_add_step">Add step</string>
+    <!-- Accessibility action on a step that opens it for renaming or deleting. -->
+    <string name="action_edit_step">Edit step</string>
+    <!-- Title of the dialog for renaming a step. -->
+    <string name="task_edit_step_title">Edit step</string>
+    <!-- Button in the step dialog that removes the step. -->
+    <string name="action_delete_step">Delete step</string>
+    <!-- Accessibility label of the handle used to drag a step to another position. -->
+    <string name="action_drag_step">Hold and drag to reorder</string>
+    <!-- Accessibility action: move this step one place up. -->
+    <string name="action_move_up">Move up</string>
+    <!-- Accessibility action: move this step one place down. -->
+    <string name="action_move_down">Move down</string>
+    <!-- Accessibility label of the top-bar button that edits the task. -->
+    <string name="action_edit_task">Edit task</string>
+    <!-- Menu item: set the task aside so it is not suggested for now. -->
+    <string name="action_pause_task">Not for now</string>
+    <!-- Menu item: bring a set-aside task back to the to-do list. -->
+    <string name="action_resume_task">Back to my list</string>
+    <!-- Button that finishes the task. -->
+    <string name="action_mark_task_done">Mark task done</string>
+    <!-- Button that makes a finished task active again. -->
+    <string name="action_reopen">Reopen</string>
+
+    <!-- Dialog when finishing a task with unchecked steps: title. -->
+    <string name="complete_open_steps_title">Some steps are still open</string>
+    <!-- Dialog when finishing a task with unchecked steps. %1$d = number of open steps. -->
+    <plurals name="complete_open_steps_body">
+        <item quantity="one">%1$d step isn\'t checked off yet. Check it off too?</item>
+        <item quantity="other">%1$d steps aren\'t checked off yet. Check them off too?</item>
+    </plurals>
+    <!-- Dialog button: finish the task and check off its open steps. -->
+    <string name="action_mark_steps_done">Check them off</string>
+    <!-- Dialog button: finish only the task and leave its open steps as they are. -->
+    <string name="action_only_task">Just the task</string>
+    <!-- Dialog after checking off the last step: title. -->
+    <string name="last_step_title">That was the last step</string>
+    <!-- Dialog after checking off the last step: question. -->
+    <string name="last_step_body">Mark the whole task done?</string>
+    <!-- Dialog button: finish the task. -->
+    <string name="action_mark_done">Mark done</string>
+    <!-- Dialog button: keep the task open for now. -->
+    <string name="action_not_yet">Not yet</string>
+
+    <!-- Task editor title when creating a task. -->
+    <string name="task_edit_new_title">New task</string>
+    <!-- Task editor title when editing a task. -->
+    <string name="task_edit_title">Edit task</string>
+    <!-- Task editor title when turning a BrainDump thought into a task. -->
+    <string name="task_edit_from_thought_title">Make it a task</string>
+    <!-- Label of the task title field. -->
+    <string name="task_field_title">What do you want to do?</string>
+    <!-- Label of the task notes field. -->
+    <string name="task_field_notes">Notes (optional)</string>
+    <!-- Editor section heading for the due date. -->
+    <string name="task_field_due">Due date</string>
+    <!-- Due-date button when no date is set. -->
+    <string name="task_due_none">No due date</string>
+    <!-- Button that removes the due date. -->
+    <string name="action_remove_date">Remove date</string>
+    <!-- Due-time button when no time is chosen: the task is due by the end of the day. -->
+    <string name="task_due_time_none">Before midnight</string>
+    <!-- Button that removes the chosen due time, so the task is due by the end of the day again. -->
+    <string name="action_remove_time">Remove time</string>
+    <!-- Editor section heading: whether the task comes back on certain days (a "routine"). -->
+    <string name="task_field_repeat">Repeat</string>
+    <!-- Editor: short help under the Repeat heading, shown after tapping its ?. Choosing days turns the task into a routine. -->
+    <string name="task_field_repeat_help">Repeating tasks become routines: they come back on the days you pick, with a reminder.</string>
+    <!-- Repeat choice: an ordinary task that doesn't come back. -->
+    <string name="repeat_never">Never</string>
+    <!-- Repeat choice: a routine for every day of the week. -->
+    <string name="repeat_every_day">Every day</string>
+    <!-- Repeat choice: a routine for Monday to Friday. -->
+    <string name="repeat_weekdays">Weekdays</string>
+    <!-- Repeat choice: a routine for days the user picks (weekday chips appear below). -->
+    <string name="repeat_pick_days">Pick days</string>
+    <!-- Editor section heading for a routine's reminder time. -->
+    <string name="task_field_remind_at">Remind me at</string>
+    <!-- Reminder-time button before a time is chosen. A routine can't be saved without one. -->
+    <string name="task_remind_time_none">Pick a time</string>
+    <!-- When a routine comes back. %1$s = time ("8:00" or "8:00 AM"). -->
+    <string name="repeat_every_day_at">Every day at %1$s</string>
+    <!-- When a routine comes back, Monday to Friday. %1$s = time. -->
+    <string name="repeat_weekdays_at">Weekdays at %1$s</string>
+    <!-- When a routine comes back on picked days. %1$s = list of short day names ("Mon, Wed and Fri"), %2$s = time. -->
+    <string name="repeat_days_at">%1$s at %2$s</string>
+    <!-- Editor section heading for the time estimate. -->
+    <string name="task_field_estimate">How long might it take?</string>
+    <!-- Editor: short help under the estimate heading, shown after tapping its ?. Takes away the pressure to fill it in. -->
+    <string name="task_field_estimate_help">Optional. Helps Donsy suggest something that fits your time.</string>
+    <!-- Editor section heading for the effort level. -->
+    <string name="task_field_effort">How much energy does it need?</string>
+    <!-- Editor: short help under the energy heading, shown after tapping its ?. Links to the energy question on Home. -->
+    <string name="task_field_effort_help">Optional. When your energy is low, Donsy suggests lighter tasks.</string>
+    <!-- Switch label: mark the task as important. -->
+    <string name="task_field_important">This is important</string>
+    <!-- Editor: small line under the "This is important" switch. -->
+    <string name="task_field_important_help">Donsy suggests important tasks sooner.</string>
+
+    <!-- BrainDump edit sheet: button that turns the thought into a task. -->
+    <string name="action_make_task">Make it a task</string>
+    <!-- Screen-reader label of the "Make it a task" chip on each BrainDump item. %1$s = first line of the thought. -->
+    <string name="action_make_task_named">Make “%1$s” a task</string>
+    <!-- Snackbar after a thought was turned into a task. -->
+    <string name="braindump_converted">Moved to your tasks</string>
+    <!-- Home: label above the suggested next step. -->
+    <string name="home_suggestion_label">A useful next step</string>
+    <!-- Home: label above the "how much time do I have" choices. -->
+    <string name="home_time_label">I have about…</string>
+    <!-- Home: label above the optional energy check-in (Low / Medium / High). -->
+    <string name="home_energy_label">My energy right now</string>
+    <!-- Home: short help under "I have about…", shown after tapping its ?. -->
+    <string name="home_time_help">Optional. Helps Donsy suggest something that fits your time.</string>
+    <!-- Home: short help under the energy heading, shown after tapping its ?. -->
+    <string name="home_energy_help">Optional. With low energy you get a lighter suggestion.</string>
+    <!-- Home energy check-in choice. Low energy is fine, never a failure. -->
+    <string name="energy_low">Low</string>
+    <!-- Home energy check-in choice. -->
+    <string name="energy_medium">Medium</string>
+    <!-- Home energy check-in choice. -->
+    <string name="energy_high">High</string>
+    <!-- Home: starts working on the suggested step. -->
+    <string name="action_start">Start</string>
+    <!-- Home: skip this suggestion and show a different one. -->
+    <string name="action_show_another">Show another</string>
+    <!-- Home: hide this suggestion until tomorrow. Not a failure; keep it light. -->
+    <string name="action_not_now">Not now</string>
+    <!-- Home: open the task list to pick something yourself. -->
+    <string name="action_choose_myself">I\'d rather choose myself</string>
+    <!-- Snackbar after "Not now"; shown with Undo. -->
+    <string name="home_set_aside">Okay, not today.</string>
+    <!-- Home: heading when no task can be suggested right now. -->
+    <string name="home_nothing_title">Nothing to suggest right now</string>
+    <!-- Home: text above the small starter ideas. -->
+    <string name="home_nothing_body">That\'s fine. Here are a few small ways to get going:</string>
+    <!-- Home: heading after the user passed over every suggestion with "Show another". -->
+    <string name="home_all_skipped_title">That\'s everything for now</string>
+    <!-- Home: explanation after passing over every suggestion. -->
+    <string name="home_all_skipped_body">You\'ve seen all your suggestions.</string>
+    <!-- Home: show the suggestions that were passed over again. -->
+    <string name="action_start_over">Show them again</string>
+    <!-- Home, first run: heading. -->
+    <string name="home_welcome_title">Clear your mind</string>
+    <!-- Home, first run: explanation. -->
+    <string name="home_welcome_body">Capture whatever is on your mind. When you\'re ready, Donsy helps you find one small next step.</string>
+
+    <!-- Starter idea: process BrainDump items for a couple of minutes. -->
+    <string name="starter_sort_braindump">Spend 2 minutes sorting your Brain Dump</string>
+    <!-- Starter idea: create one small task. -->
+    <string name="starter_add_small_task">Add one small task</string>
+    <!-- Starter idea: open the task list and pick any task. -->
+    <string name="starter_pick_any_task">Pick any task</string>
+
+    <!-- Why a step is suggested. Each reason is one full sentence; one or two are shown. -->
+    <string name="reason_due_today">It\'s due today.</string>
+    <!-- Suggestion reason. -->
+    <string name="reason_due_tomorrow">It\'s due tomorrow.</string>
+    <!-- Suggestion reason. %d = days until the due date (2 to 7). -->
+    <plurals name="reason_due_soon">
+        <item quantity="one">It\'s due in %d day.</item>
+        <item quantity="other">It\'s due in %d days.</item>
+    </plurals>
+    <!-- Suggestion reason for a task past its date. Must be kind: no blame, no "overdue". -->
+    <string name="reason_was_due">Its date has passed, but a small step still counts.</string>
+    <!-- Suggestion reason. -->
+    <string name="reason_important">You marked it as important.</string>
+    <!-- Suggestion reason. %d = minutes the user said they have. -->
+    <plurals name="reason_fits_time">
+        <item quantity="one">It fits in your %d minute.</item>
+        <item quantity="other">It fits in your %d minutes.</item>
+    </plurals>
+    <!-- Suggestion reason. %d = estimated minutes (15 or less). -->
+    <plurals name="reason_quick">
+        <item quantity="one">It only takes about %d minute.</item>
+        <item quantity="other">It only takes about %d minutes.</item>
+    </plurals>
+    <!-- Suggestion reason when the user has low energy. Never imply failure. -->
+    <string name="reason_energy_low">It\'s light enough for a low-energy moment.</string>
+    <!-- Suggestion reason when the user has medium energy. -->
+    <string name="reason_energy_medium">It suits your energy right now.</string>
+    <!-- Suggestion reason when the user has high energy. -->
+    <string name="reason_energy_high">A good match for your energy right now.</string>
+    <!-- Suggestion reason. -->
+    <string name="reason_worked_recently">You worked on this recently.</string>
+    <!-- Suggestion reason. %1$d = steps done, %2$d = total steps (the plural follows the total). -->
+    <plurals name="reason_steps_in_progress">
+        <item quantity="one">You\'re %1$d of %2$d step in.</item>
+        <item quantity="other">You\'re %1$d of %2$d steps in.</item>
+    </plurals>
+    <!-- Suggestion reason when every step is checked off. -->
+    <string name="reason_all_steps_done">All steps are done. Just wrap it up.</string>
+    <!-- Suggestion reason when nothing else stands out. -->
+    <string name="reason_good_start">A good place to start.</string>
+    <!-- Focus set-up: heading. -->
+    <string name="focus_setup_title">What will you focus on?</string>
+    <!-- Focus set-up: short help under the heading, shown after tapping its ?. -->
+    <string name="focus_setup_help">Pick a task or step, or just focus without one.</string>
+    <!-- Focus set-up: shown when no task is chosen. -->
+    <string name="focus_target_none">Just focus, no specific task</string>
+    <!-- Focus set-up: opens the list of tasks to focus on. Also the title of that list. -->
+    <string name="action_choose_task">Choose a task</string>
+    <!-- Focus set-up: pick a different task. -->
+    <string name="action_change_task">Choose another task</string>
+    <!-- Focus set-up: focus without a task. -->
+    <string name="action_clear_task">No task</string>
+    <!-- Focus set-up: heading of the duration choices. -->
+    <string name="focus_duration_label">For how long?</string>
+    <!-- Focus set-up: short help under "For how long?", shown after tapping its ?. Reassuring, no pressure. -->
+    <string name="focus_duration_help">A short session is fine. You can pause or stop any time.</string>
+    <!-- Focus set-up: starts the timer. -->
+    <string name="action_start_focus">Start focusing</string>
+
+    <!-- Running session without a task. -->
+    <string name="focus_just_focusing">Just focusing</string>
+    <!-- Label on a paused timer. -->
+    <string name="focus_paused">Paused</string>
+    <!-- Screen-reader text for the timer. %d = minutes left, rounded up. -->
+    <plurals name="focus_minutes_left">
+        <item quantity="one">%d minute left</item>
+        <item quantity="other">%d minutes left</item>
+    </plurals>
+    <!-- Screen-reader text for a paused timer. %1$s = e.g. "12 minutes left". -->
+    <string name="focus_paused_time_left">Paused, %1$s</string>
+    <!-- Pauses the timer. -->
+    <string name="action_pause">Pause</string>
+    <!-- Continues a paused timer. -->
+    <string name="action_resume">Resume</string>
+    <!-- Ends the session now and counts the time spent. -->
+    <string name="action_finish_early">Finish now</string>
+    <!-- Ends the session without counting it. -->
+    <string name="action_cancel_session">Cancel session</string>
+    <!-- Reassurance under the session buttons: ending a session never completes or changes the task. -->
+    <string name="focus_task_unchanged">Stopping never changes your task. You decide when it\'s done.</string>
+
+    <!-- After a session that ran its full time: heading. -->
+    <string name="focus_done_title">Session complete</string>
+    <!-- After a session that was finished early: heading. Not a failure. -->
+    <string name="focus_ended_title">Session ended</string>
+    <!-- After a session. %d = minutes focused. -->
+    <plurals name="focus_done_body">
+        <item quantity="one">You focused for %d minute.</item>
+        <item quantity="other">You focused for %d minutes.</item>
+    </plurals>
+    <!-- After a session that ran out while the app was closed. -->
+    <string name="focus_note_finished_away">It finished while you were away.</string>
+    <!-- After a session that stayed paused very long and was ended automatically. -->
+    <string name="focus_note_long_pause">It was paused for a long time, so it has been wrapped up.</string>
+    <!-- After a session: offer to check off what was worked on. %1$s = step or task title. -->
+    <string name="focus_mark_done_question">Mark “%1$s” done?</string>
+    <!-- After a session, once the step or task is checked off. -->
+    <string name="focus_marked_done">Checked off. Nice work.</string>
+    <!-- After a session: back to set-up for another one. -->
+    <string name="action_start_another">Start another session</string>
+
+    <!-- Notification channel (Android settings) for the running timer. -->
+    <string name="notification_channel_focus">Focus timer</string>
+    <!-- Description of the running-timer notification channel. -->
+    <string name="notification_channel_focus_description">Shows the time left while a focus session runs.</string>
+    <!-- Notification channel (Android settings) for the end of a session. -->
+    <string name="notification_channel_focus_end">Focus session ended</string>
+    <!-- Description of the session-ended notification channel. -->
+    <string name="notification_channel_focus_end_description">Lets you know when a focus session is over.</string>
+    <!-- Running-timer notification title. %1$s = step or task title. -->
+    <string name="notification_focus_running_title">Focusing: %1$s</string>
+    <!-- Running-timer notification title without a task. -->
+    <string name="notification_focus_running_plain">Focusing</string>
+    <!-- Paused-timer notification text. %d = minutes left. -->
+    <plurals name="notification_focus_paused">
+        <item quantity="one">Paused · %d minute left</item>
+        <item quantity="other">Paused · %d minutes left</item>
+    </plurals>
+    <!-- Notification when a session's time is up: title. -->
+    <string name="notification_focus_done_title">Focus session complete</string>
+    <!-- Notification when a session's time is up: text. -->
+    <string name="notification_focus_done_text">Nice work. Tap to see how it went.</string>
+
+    <!-- Settings: switch for exact end-of-session alarms. -->
+    <string name="settings_precise_alerts">Precise end alerts</string>
+    <!-- Settings: explanation of precise end alerts. -->
+    <string name="settings_precise_alerts_body">Alert at the exact moment a focus session ends. Android asks for your permission. Without it, the alert can come several minutes late.</string>
+    <!-- Settings: which session lengths the Focus screen offers. Also the dialog title. -->
+    <string name="settings_focus_lengths">Focus lengths</string>
+    <!-- Settings dialog: explanation above the list of lengths (5 min, 10 min, …). -->
+    <string name="settings_focus_lengths_body">Choose the lengths you want to pick from on the Focus screen.</string>
+    <!-- Settings: the session length that is selected when the Focus screen opens. Also the dialog title. -->
+    <string name="settings_focus_default">Preselected length</string>
+    <!-- Focus set-up card, asked once: offer exact end-of-session alerts. -->
+    <string name="focus_precise_offer_title">Get the end alert right on time?</string>
+    <!-- Focus set-up card: why permission is needed. -->
+    <string name="focus_precise_offer_body">Without your permission, Android can send it a few minutes late. You can change this later in Settings.</string>
+    <!-- Button: give the permission. -->
+    <string name="action_allow">Allow</string>
+    <!-- Button: decline politely. -->
+    <string name="action_no_thanks">No thanks</string>
+
+    <!-- Tasks list section with tasks that repeat on set days. -->
+    <string name="tasks_section_routines">Routines (repeating)</string>
+    <!-- Tasks tab: short help under the routines heading, shown after tapping its ?. Never "missed". -->
+    <string name="tasks_section_routines_help">Tasks that come back on set days. Tick them off for today.</string>
+    <!-- Status of a routine that was ticked off today; it comes back on its next day. -->
+    <string name="routine_status_done_today">Done for today</string>
+    <!-- Button on a routine's detail screen: mark it done for today. -->
+    <string name="action_routine_done_today">Done for today</string>
+    <!-- Button on a routine's detail screen after it was marked done today: take that back. -->
+    <string name="action_routine_not_done">Not done yet</string>
+    <!-- Accessibility label of a routine's checkbox. %1$s = routine title. -->
+    <string name="action_routine_done_named">Mark %1$s done for today</string>
+    <!-- Accessibility label of a ticked routine's checkbox. %1$s = routine title. -->
+    <string name="action_routine_undo_named">Mark %1$s not done yet</string>
+    <!-- Shown when making a routine without the needed permissions. Calm, factual. -->
+    <string name="reminders_permission_body">Routines remind you at the time you choose. For that, Donsy needs to send notifications and set alarms.</string>
+    <!-- Shown above the routines when a needed permission was switched off later. -->
+    <string name="reminders_off_body">Reminders for your routines are off. Allow them so Donsy can remind you on time.</string>
+    <!-- Button: ask for (or open the settings for) notifications. -->
+    <string name="action_allow_notifications">Allow notifications</string>
+    <!-- Button: open Android's "Alarms &amp; reminders" setting for Donsy. -->
+    <string name="action_allow_alarms">Allow alarms</string>
+    <!-- Notification channel name (Android settings) for routine reminders. -->
+    <string name="notification_channel_routines">Routines</string>
+    <!-- Notification channel description (Android settings). -->
+    <string name="notification_channel_routines_description">A reminder at the time you chose for a routine.</string>
+    <!-- Text of a routine reminder; the title is the routine itself. %1$s = time. Kind, no pressure. -->
+    <string name="notification_routine_text">It\'s %1$s: time for this routine.</string>
+    <!-- Action button on a routine reminder: mark the routine done for today. Keep very short. -->
+    <string name="action_routine_done">Done</string>
+
+    <!-- ===== Data safety: Settings, export/restore, Recently deleted, Archive ===== -->
+    <!-- Settings: heading band above language, focus and alert settings. -->
+    <string name="settings_section_general">General</string>
+    <!-- Settings: heading band above export, restore, recently deleted and archive. -->
+    <string name="settings_section_data">Your data</string>
+    <!-- Settings, under "Your data": why exporting matters. Calm and factual, no scare tone. -->
+    <string name="settings_data_local_only">Everything stays on this phone. If you uninstall Donsy or switch phones, it\'s gone unless you export it first.</string>
+    <!-- Settings item: save everything to a file. -->
+    <string name="settings_export">Export your data</string>
+    <!-- Settings item explanation for exporting. -->
+    <string name="settings_export_body">Save your tasks, routines, thoughts, focus history and settings to a file.</string>
+    <!-- Settings item: load an export file. -->
+    <string name="settings_restore">Restore from a file</string>
+    <!-- Settings item explanation for restoring. -->
+    <string name="settings_restore_body">Replace everything in Donsy with an export.</string>
+    <!-- Settings item: list of deleted tasks and thoughts that can still be restored. -->
+    <string name="settings_recently_deleted">Recently deleted</string>
+    <!-- Settings item explanation for recently deleted. -->
+    <string name="settings_recently_deleted_body">Deleted tasks and thoughts, kept for 7 days.</string>
+    <!-- Settings item: list of archived (put away) done tasks. -->
+    <string name="settings_archive">Archive</string>
+    <!-- Settings item explanation for the archive. -->
+    <string name="settings_archive_body">Done tasks you put away. Bring any of them back.</string>
+    <!-- Settings item: how long done tasks stay in the list before moving to the archive by themselves. -->
+    <string name="settings_auto_archive">Archive done tasks automatically</string>
+    <!-- Choice for automatic archiving: never. -->
+    <string name="settings_auto_archive_never">Never</string>
+    <!-- Choice for automatic archiving. %d = number of days a done task is left alone first. -->
+    <plurals name="settings_auto_archive_after">
+        <item quantity="one">After %d day</item>
+        <item quantity="other">After %d days</item>
+    </plurals>
+    <!-- Screen-reader text for the progress bar while exporting or restoring. -->
+    <string name="backup_working">Working on your data…</string>
+
+    <!-- Export dialog: title. -->
+    <string name="export_title">Export your data</string>
+    <!-- Export dialog: what is saved. -->
+    <string name="export_body">Saves your tasks, routines, thoughts, focus history and settings to a file you choose.</string>
+    <!-- Export dialog: switch to encrypt the file. -->
+    <string name="export_protect">Protect with a passphrase</string>
+    <!-- Export dialog, without a passphrase: honest warning. -->
+    <string name="export_plain_warning">Without a passphrase, anyone who gets the file can read it. Keep it somewhere safe.</string>
+    <!-- Label of the passphrase field (export and restore). -->
+    <string name="export_passphrase">Passphrase</string>
+    <!-- Label of the field to type the passphrase a second time. -->
+    <string name="export_passphrase_repeat">Repeat passphrase</string>
+    <!-- Export dialog: rules and consequence of forgetting. -->
+    <string name="export_passphrase_rule">At least 8 characters. If you forget it, nobody can open the file, not even Donsy.</string>
+    <!-- Export dialog: the two passphrases are not the same. -->
+    <string name="export_passphrase_mismatch">The two passphrases are different.</string>
+    <!-- Export dialog: confirm button. -->
+    <string name="action_export">Export</string>
+
+    <!-- Restore: title of the dialog asking for the passphrase of a protected file. -->
+    <string name="restore_passphrase_title">This file is protected</string>
+    <!-- Restore: explanation in the passphrase dialog. -->
+    <string name="restore_passphrase_body">Type the passphrase you chose when you exported it.</string>
+    <!-- Restore: shown under the field after a wrong passphrase. -->
+    <string name="restore_passphrase_wrong">That passphrase doesn\'t open this file. Try again.</string>
+    <!-- Restore: button to open the protected file with the passphrase. -->
+    <string name="action_open_file">Open</string>
+    <!-- Restore: title of the confirmation dialog. -->
+    <string name="restore_confirm_title">Replace everything?</string>
+    <!-- Restore: when the export was made. %1$s = date, %2$s = time. -->
+    <string name="restore_confirm_made">Exported on %1$s at %2$s.</string>
+    <!-- Restore: introduces the list of counts below it. -->
+    <string name="restore_confirm_contains">This file holds:</string>
+    <!-- One line in a bulleted list. %1$s = the line's text. -->
+    <string name="list_bullet">• %1$s</string>
+    <!-- Restore: count of tasks in the file. -->
+    <plurals name="restore_count_tasks">
+        <item quantity="one">%d task</item>
+        <item quantity="other">%d tasks</item>
+    </plurals>
+    <!-- Restore: count of routines in the file. -->
+    <plurals name="restore_count_routines">
+        <item quantity="one">%d routine</item>
+        <item quantity="other">%d routines</item>
+    </plurals>
+    <!-- Restore: count of BrainDump thoughts in the file. -->
+    <plurals name="restore_count_thoughts">
+        <item quantity="one">%d thought</item>
+        <item quantity="other">%d thoughts</item>
+    </plurals>
+    <!-- Restore: count of past focus sessions in the file. -->
+    <plurals name="restore_count_focus_sessions">
+        <item quantity="one">%d focus session</item>
+        <item quantity="other">%d focus sessions</item>
+    </plurals>
+    <!-- Restore: count of recently deleted tasks and thoughts in the file. -->
+    <plurals name="restore_count_recently_deleted">
+        <item quantity="one">%d recently deleted item</item>
+        <item quantity="other">%d recently deleted items</item>
+    </plurals>
+    <!-- Restore: plain warning before replacing. -->
+    <string name="restore_confirm_warning">Everything now in Donsy is replaced by what\'s in this file. This can\'t be undone.</string>
+    <!-- Restore: confirm button. -->
+    <string name="action_replace_everything">Replace everything</string>
+
+    <!-- Snackbar after a successful export. -->
+    <string name="backup_exported">Export saved</string>
+    <!-- Snackbar when the export file couldn't be written. -->
+    <string name="backup_export_failed">Couldn\'t save the file. Try another place.</string>
+    <!-- Snackbar after a successful restore. -->
+    <string name="backup_restored">Everything is restored</string>
+    <!-- Snackbar when the chosen file can't be read at all. -->
+    <string name="backup_unreadable">Couldn\'t open that file</string>
+    <!-- Snackbar when the chosen file is not a Donsy export. -->
+    <string name="backup_not_a_backup">That file isn\'t a Donsy export</string>
+    <!-- Snackbar when the export was made by a newer version of the app. -->
+    <string name="backup_from_newer_version">That export comes from a newer Donsy. Update the app first.</string>
+    <!-- Snackbar when a focus session is running or paused during a restore. -->
+    <string name="backup_focus_session_active">Finish or stop your focus session first, then restore.</string>
+
+    <!-- Recently deleted screen: title. -->
+    <string name="recently_deleted_title">Recently deleted</string>
+    <!-- Recently deleted screen: explanation at the top. -->
+    <string name="recently_deleted_intro">Deleted tasks and thoughts stay here for 7 days. After that they\'re gone for good.</string>
+    <!-- Recently deleted screen: heading band above deleted tasks. -->
+    <string name="recently_deleted_section_tasks">Tasks</string>
+    <!-- Recently deleted screen: heading band above deleted BrainDump thoughts. -->
+    <string name="recently_deleted_section_thoughts">Thoughts</string>
+    <!-- Recently deleted screen: shown when nothing was deleted recently. -->
+    <string name="recently_deleted_empty">Nothing deleted recently.</string>
+    <!-- Recently deleted row: how long the item is still kept. %d = days. -->
+    <plurals name="recently_deleted_days_left">
+        <item quantity="one">Kept for %d more day</item>
+        <item quantity="other">Kept for %d more days</item>
+    </plurals>
+    <!-- Button on a deleted item: bring it back. -->
+    <string name="action_restore">Restore</string>
+    <!-- Screen-reader label of the restore button. %1$s = task title or first line of the thought. -->
+    <string name="action_restore_named">Restore “%1$s”</string>
+    <!-- Screen-reader label of the delete-for-good icon button. %1$s = task title or first line of the thought. -->
+    <string name="action_delete_forever_named">Delete “%1$s” for good</string>
+    <!-- Confirm button: delete for good. -->
+    <string name="action_delete_forever">Delete for good</string>
+    <!-- Title of the confirmation before deleting for good. -->
+    <string name="delete_forever_title">Delete for good?</string>
+    <!-- Body of the confirmation before deleting for good. %1$s = task title or first line of the thought. -->
+    <string name="delete_forever_body">“%1$s” can\'t be brought back after this.</string>
+    <!-- Snackbar after restoring a task. -->
+    <string name="recently_deleted_restored_task">Back in your tasks</string>
+    <!-- Snackbar after restoring a thought. -->
+    <string name="recently_deleted_restored_thought">Back in your Brain Dump</string>
+
+    <!-- Archive screen: title. -->
+    <string name="archive_title">Archive</string>
+    <!-- Archive screen: explanation at the top. -->
+    <string name="archive_intro">Done tasks you put away, by hand or automatically. Bring one back to see it under Done again.</string>
+    <!-- Archive screen: shown when the archive is empty. -->
+    <string name="archive_empty">No archived tasks yet.</string>
+    <!-- Archive row: when the task was done. %1$s = date, e.g. "3 Oct". -->
+    <string name="archive_done_on">Done %1$s</string>
+    <!-- Archive row button: move the task back to the Done section. -->
+    <string name="action_bring_back">Bring back</string>
+    <!-- Screen-reader label of the bring-back button. %1$s = task title. -->
+    <string name="action_bring_back_named">Bring back “%1$s”</string>
+    <!-- Snackbar after bringing a task back from the archive; offered with Undo. -->
+    <string name="archive_brought_back">Back under Done</string>
+    <!-- Screen-reader label of the archive icon on a done task in the Tasks list. %1$s = task title. -->
+    <string name="action_archive_named">Archive “%1$s”</string>
+    <!-- Snackbar after archiving a done task from the Tasks list; offered with Undo. -->
+    <string name="task_archived">Task archived</string>
+
+    <!-- Settings: heading of the last section, about the app itself. -->
+    <string name="settings_section_about">About Donsy</string>
+    <!-- Settings item that opens the open source licenses screen. -->
+    <string name="settings_licenses">Open source licenses</string>
+    <!-- Settings: line under "Open source licenses". -->
+    <string name="settings_licenses_body">Donsy is free software. Its license and the libraries it\'s built with.</string>
+    <!-- Title of the open source licenses screen. -->
+    <string name="licenses_title">Open source licenses</string>
+    <!-- Licenses screen: Donsy's own license in plain words. The name and logo are excluded (see README). -->
+    <string name="licenses_donsy_body">Donsy is free software under the GNU General Public License, version 3 or later. You may use, share and change it. Whoever passes it on, changed or not, must also share the source code, under the same license. The name Donsy and its logo are not covered by the license.</string>
+    <!-- Licenses screen: button that opens the full text of the GPL (in English). -->
+    <string name="action_read_gpl">Read the GPL</string>
+    <!-- Licenses screen: heading above the list of libraries Donsy uses. -->
+    <string name="licenses_section_libraries">Libraries</string>
+    <!-- Licenses screen: intro above the list of libraries. -->
+    <string name="licenses_libraries_body">Donsy is built with these open source libraries. All of them are under the Apache License 2.0.</string>
+    <!-- Licenses screen: button that opens the full text of the Apache License (in English). -->
+    <string name="action_read_apache">Read the Apache License</string>
+    <!-- Licenses screen: copyright line under a library. %1$s = the copyright holder. -->
+    <string name="license_copyright" translatable="false">© %1$s</string>
+    <!-- Official license names, used as the title of the full text. -->
+    <string name="license_gpl_3_name" translatable="false">GNU General Public License v3.0</string>
+    <string name="license_apache_2_name" translatable="false">Apache License 2.0</string>
+</resources>

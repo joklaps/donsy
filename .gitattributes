@@ -1,0 +1,9 @@
+*.bat text eol=crlf
+gradlew text eol=lf
+
+# Private: left out of the public code-only repository (scripts/publish-public.sh uses git archive).
+docs/                     export-ignore
+CLAUDE.md                 export-ignore
+donsyapp.txt              export-ignore
+website/                  export-ignore
+scripts/publish-public.sh export-ignore

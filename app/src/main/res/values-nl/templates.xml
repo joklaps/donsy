@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dutch breakdown templates. How keywords work: see values/templates.xml. -->
+<resources>
+    <string name="template_study_test_name">Leren voor een toets</string>
+    <string-array name="template_study_test_keywords">
+        <item>*toets*</item>
+        <item>test</item>
+        <item>tests</item>
+        <item>examen*</item>
+        <item>*proefwerk*</item>
+        <item>overhoring*</item>
+        <item>leren</item>
+        <item>studeren</item>
+        <item>blokken</item>
+        <item>herhal*</item>
+    </string-array>
+    <string-array name="template_study_test_steps">
+        <item>Zoek uit welke leerstof de toets behandelt</item>
+        <item>Leg je notities en boeken klaar</item>
+        <item>Herhaal het eerste onderdeel</item>
+        <item>Maak flashcards of een korte samenvatting</item>
+        <item>Overhoor jezelf op wat nog moeilijk is</item>
+    </string-array>
+
+    <string name="template_write_text_name">Een tekst of verslag schrijven</string>
+    <string-array name="template_write_text_keywords">
+        <item>*verslag*</item>
+        <item>*opstel*</item>
+        <item>essay*</item>
+        <item>paper</item>
+        <item>schrijven</item>
+        <item>schrijf</item>
+        <item>*tekst</item>
+    </string-array>
+    <string-array name="template_write_text_steps">
+        <item>Lees de opdracht nog eens</item>
+        <item>Verzamel ideeën en bronnen</item>
+        <item>Maak een korte structuur</item>
+        <item>Schrijf een ruwe eerste versie</item>
+        <item>Lees alles na en verbeter wat opvalt</item>
+        <item>Lever het in</item>
+    </string-array>
+
+    <string name="template_presentation_name">Een presentatie voorbereiden</string>
+    <string-array name="template_presentation_keywords">
+        <item>*presentatie*</item>
+        <item>spreekbeurt*</item>
+        <item>voorstelling</item>
+        <item>slides</item>
+        <item>powerpoint</item>
+    </string-array>
+    <string-array name="template_presentation_steps">
+        <item>Kies je belangrijkste boodschap</item>
+        <item>Verzamel de informatie die je nodig hebt</item>
+        <item>Maak de slides of je notities</item>
+        <item>Oefen het één keer hardop</item>
+        <item>Check wat je op de dag zelf nodig hebt</item>
+    </string-array>
+
+    <string name="template_homework_name">Huiswerk maken</string>
+    <string-array name="template_homework_keywords">
+        <item>huiswerk</item>
+        <item>huistaak*</item>
+        <item>opdracht*</item>
+        <item>oefening*</item>
+        <item>werkblad*</item>
+    </string-array>
+    <string-array name="template_homework_steps">
+        <item>Kijk wat je moet doen en waar je het vindt</item>
+        <item>Leg je spullen klaar</item>
+        <item>Maak de eerste oefening</item>
+        <item>Maak de rest</item>
+        <item>Stop het in je boekentas</item>
+    </string-array>
+
+    <string name="template_tidy_room_name">Een kamer opruimen</string>
+    <string-array name="template_tidy_room_keywords">
+        <item>opruim*</item>
+        <item>ruim op</item>
+        <item>ruimen</item>
+        <item>*kamer</item>
+        <item>poets*</item>
+        <item>kuis*</item>
+        <item>bureau</item>
+    </string-array>
+    <string-array name="template_tidy_room_steps">
+        <item>Stop afval in een zak</item>
+        <item>Breng vuile vaat naar de keuken</item>
+        <item>Berg kleren op of leg ze in de was</item>
+        <item>Maak één oppervlak leeg</item>
+        <item>Leg de rest terug op zijn plaats</item>
+    </string-array>
+
+    <string name="template_call_name">Bellen of een afspraak maken</string>
+    <string-array name="template_call_keywords">
+        <item>bel</item>
+        <item>bellen</item>
+        <item>telefoneren</item>
+        <item>*afspraak*</item>
+    </string-array>
+    <string-array name="template_call_steps">
+        <item>Zoek het nummer of de website op</item>
+        <item>Schrijf op wat je wilt vragen</item>
+        <item>Kies een moment en bel</item>
+        <item>Noteer wat er is afgesproken</item>
+    </string-array>
+
+    <string name="template_trip_name">Inpakken voor een reis</string>
+    <string-array name="template_trip_keywords">
+        <item>inpak*</item>
+        <item>pak in</item>
+        <item>*reis</item>
+        <item>*reizen</item>
+        <item>kamp</item>
+        <item>kamperen</item>
+        <item>vakantie*</item>
+        <item>valies</item>
+        <item>koffer</item>
+    </string-array>
+    <string-array name="template_trip_steps">
+        <item>Maak een lijstje van wat je nodig hebt</item>
+        <item>Bekijk het weerbericht</item>
+        <item>Leg je kleren klaar</item>
+        <item>Verzamel toiletspullen en opladers</item>
+        <item>Pak je tas in</item>
+    </string-array>
+
+    <string name="template_read_book_name">Een boek lezen</string>
+    <string-array name="template_read_book_keywords">
+        <item>lees</item>
+        <item>lezen</item>
+        <item>boek</item>
+        <item>boeken</item>
+        <item>leesboek*</item>
+        <item>roman*</item>
+        <item>hoofdstuk*</item>
+    </string-array>
+    <string-array name="template_read_book_steps">
+        <item>Kijk hoeveel bladzijden er nog zijn</item>
+        <item>Verdeel ze in een paar stukken</item>
+        <item>Lees het eerste stuk</item>
+        <item>Schrijf een paar notities op</item>
+    </string-array>
+</resources>
